@@ -5,6 +5,7 @@
   text-decoration: none;
 }
 body {
+
   width: 100vw;
   height: 100vh;
   font-family: 'Poppins', sans-serif;
@@ -77,3 +78,66 @@ body {
   border-radius: 5px;
   cursor: pointer;
 } 
+.student{
+  font-size: 2em;
+  border: 1px solid hsl(0, 0%, 80%, 0.8);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+} 
+.student p{
+  margin: 5px 0;
+  color: hsl(0, 0%, 20%);
+}
+.welcome-mess{
+  color: green;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 20px 0;
+}
+.sign-up-mess{
+  color: red;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 20px 0;
+} 
+.list-category{
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(0, 0%, 20%);
+  margin: 10px ;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: hsl(185, 100%, 50%);
+}
+.list-items{
+  font-size: 1.2em;
+  list-style: none;
+  padding: 0;
+  margin: 10px auto;
+  max-width: 400px;
+}
+.list-items li:hover{
+  background-color: hsl(185, 100%, 50%);
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.list-items li{
+  font-size: 1.2em;
+  list-style: none;   
+  padding: 10px;
+  border-bottom: 1px solid hsl(0, 0%, 80%);
+  color: hsl(0, 0%, 20%);
+}
+.click-pic{
+  width: 200px;
+  border-radius: 50%;
+}

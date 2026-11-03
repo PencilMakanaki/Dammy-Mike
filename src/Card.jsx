@@ -1,11 +1,11 @@
 import profilePic from "./assets/finest.jpg";
 
-function Card() {
+function Card(props) {
     return (  
         <div className="card">
           <img className="card-image" src={profilePic} alt="profile picture" />
-          <h2 className="card-title"> OJO DAMILOLA</h2>
-          <p className="card-text">web developer, Artist, Designer </p>
+          <h2 className="card-title"> {props.name} </h2>
+          <p className="card-text"> {props.description} </p>
         </div>
       )
 }
